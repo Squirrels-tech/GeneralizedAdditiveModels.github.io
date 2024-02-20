@@ -8,3 +8,4 @@ Generalized additive models were originally invented by Trevor Hastie and Robert
 Mathematically speaking, GAM is an additive modeling technique where the impact of the predictive variables is captured through smooth functions which—depending on the underlying patterns in the data—can be nonlinear
 
 $$\left(g(E(Y)))=α+s1(x1)+⋯+sp(xp\right)$$
+where Y is the dependent variable (i.e., what we are trying to predict), E(Y) denotes the expected value, and g(Y) denotes the link function that links the expected value to the predictor variables x1,…,xp.
